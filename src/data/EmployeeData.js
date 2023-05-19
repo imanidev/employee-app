@@ -16,12 +16,13 @@ const employees = [
         role: 'VP of Engineering'
     },
     {
-        name: 'James King',
-        role: 'President and CEO'
+        name: 'Ray Moore',
+        role: 'VP of Sales'
     },
- {       name: 'James King',
-        role: 'President and CEO'
-}
+    {
+        name: 'Paul Jones',
+        role: 'QA Manager'
+    }
 ];
 
-export default employees
+export default employees;
