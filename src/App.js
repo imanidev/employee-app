@@ -1,12 +1,14 @@
-import { Router, Route } from 'react-router-dom';
-import EmployeeList from './components/EmployeeList';
 import './App.css';
+import HomePage from './pages/HomePage'
+import EmployeePage from './pages/EmployeePage'
+
 
 function App() {
   return (
-    <Router>
-      <Route exact path="/employees" component={EmployeeList} />
-    </Router>
+    <div>
+      <HomePage />
+      <EmployeePage />
+    </div>
   );
 }
 

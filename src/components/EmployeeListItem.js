@@ -1,8 +1,11 @@
 import React from 'react';
 
-function EmployeeListItem() {
+function EmployeeListItem({ emp }) {
     return (
-        <div>EmployeeListItem</div>
+        <div>
+            <h2>{emp.name}</h2>
+            <h2>{emp.role}</h2>
+        </div>
     );
 }
 
